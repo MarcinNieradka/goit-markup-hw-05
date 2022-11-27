@@ -46,7 +46,12 @@
         <section class="showcase">
           <div class="container">
             <h1 class="showcase-h1">efektywne rozwiązania dla waszego biznesu</h1>
-            <button class="order-btn" type="button">Zamów usługę</button>
+            <button data-modal-open class="order-btn" type="button">Zamów usługę</button>
+            <div class="modal is-hidden" data-modal>
+              <div class="box-modal">
+                <button class="btn-modal" data-modal-close>&times;</button>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -318,5 +323,6 @@
         </div>
       </footer>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
