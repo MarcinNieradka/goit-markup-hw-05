@@ -225,7 +225,6 @@ h5 {
 }
 
 .portfolio-item:hover .portfolio-overlay {
-  /* 111 ^^ sprawdzic w autosprawdzaniu ^^ 111111111 */
   transform: translateY(0);
 }
 
@@ -470,7 +469,7 @@ h5 {
   border-radius: 4px;
   border: none;
   color: var(--font-main-color);
-  background-color: #757575; /* 1111111111111111111111111111111111111111111 */
+  background-color: var(--bg-medium-color);
   box-shadow: none;
   transition-property: color, background-color, box-shadow;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
