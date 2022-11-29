@@ -622,9 +622,11 @@ h5 {
   justify-content: center;
 }
 
-/* .portfolio {
-  background-color: #2f303a; --------- only to temporary preview box area
-} */
+.portfolio {
+  display: flex;
+  justify-content: center;
+  /* background-color: #2f303a; --------- only to temporary preview box area */
+}
 
 .portfolio-text-container {
   padding: 20px 24px;
@@ -632,6 +634,7 @@ h5 {
 }
 
 .portfolio-list {
+  /* width: 800px; */
   text-align: center;
   display: flex;
   list-style-type: none;
